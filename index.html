@@ -1,3 +1,10 @@
+<!--
+Assignment 1 for T1CG Academy
+Author: Sam Mendimasa
+Date: 1/12/17
+Thank You!
+-->
+
 <!DOCTYPE HTML>
 <html>
 
@@ -7,56 +14,51 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     <link rel=stylesheet href="src/css/style.css" type="text/css"/>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-    <title>academy</title>
+
+    <title>T1CG Academy Asssignment1</title>
   </head>
-  <style>
-  #celebrityName {
-    //center your text
-    //set text color
-  }
-  table, th, td {
-    //set your background-color,
-    border: 1px solid black;
-    margin-left:auto;
-    margin-right:auto;
-  }
-  #celebrityPic {
-    //set your height and width to match with video
-  }
-  .displayClass{
-    display: none;
-  }
-  #link {
-    //center your link
-  }
-  .date {
-    //center the date
-  }
-  .centerClass {
-    //block of code for centering certain elements.  This can be applied to elements you add this class to.
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  body {
-    //set background-color
-  }
-  </style>
+
   <body>
-    <h2>Celebrity Name</h2>
-    <div><button class="centerClass" id="trivia">Play Trivia</button></div>
-    <center>img tag with appropriate id assignment and src='your photo url here'</center>
-    <center><iframe id="seagalVideo" use displayClass to center this element width="315" height="420" src="youtube video url" frameborder="0" gesture="media" allowfullscreen></iframe></center>
-    <button class="centerClass" set button id>Picture Video Toggle</button>
-    <h4 id="link"><a href="link to wikipedia page">your celebrity on Wikipedia</h4></a>
-    <table id="movieTable">
-      \\use table row tags <tr> table head tags <th> and table data tags <td> to create a table
+    <!-- <div>Hello World</div> -->
+
+    <img src="images/glover1.jpg" id="image_glover1"></img>
+    <h2> Donald Glover </h2>
+    <p><a href="https://en.wikipedia.org/wiki/Donald_Glover" target="_blank"> Info </a></p>
+    <table class="table" id="table">
+      <span>List of Movies</span><br>
+      <tr id="tableHeaders">
+        <th>Title</th>
+        <th>Year<th>
+      </tr>
+      <tr>
+        <td>Mystery Team</td>
+        <td>2009</td>
+      </tr>
+      <tr>
+        <td>The Muppets</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>Magic Mike XXL</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>Spider-Man: Homecoming</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>The Lion King</td>
+        <td>2019</td>
+      </tr>
+
     </table>
-    <input class="centerClass" id="titleInput" placeholder="title"></input>
-    <input class="centerClass" id="yearInput" placeholder="year"></input>
-    <button class="centerClass" id="tableButton">Add Movie to Table</button>
-    <h3 class="date"><input class="date" type="date" /></h3>
+    <br>
+    <span>Select Date:</span>
+    <input id="date" type="date">
   </body>
-  <script src="script.js"></script>
+  <script src="script.js">
+  </script>
 </html>

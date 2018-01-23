@@ -1,0 +1,47 @@
+/*
+ CSS for first Assignment from  T1CG Academy
+*/
+html, body{
+  background-color: blue;
+  text-align: center;;
+  font-size: 12px;
+}
+body{
+  width: 50%;
+  padding: 20px 50px;
+  border: 5px solid black;
+  background-color: cyan;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 400px;
+align-self: center;
+margin: 0 auto;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+
+a:hover{
+  color: purple;
+}
+
+h2{
+  font-family: 'Joti One', cursive;
+}
